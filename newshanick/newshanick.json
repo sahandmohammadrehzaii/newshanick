@@ -1,0 +1,464 @@
+{
+  "general": {
+    "userAgentRegexes": [],
+    "replaceStrings": [],
+    "languages": [],
+    "publicKey": "zwxbwo",
+    "deviceRegKey": "91pp63curjpt74mrpen4rz1jzg",
+    "appName": "نیوشا نیک",
+    "initialUrl": "https://newshanik.ir/",
+    "screenOrientation": {
+      "iphone": null,
+      "ipad": null,
+      "androidPhone": null,
+      "androidTablet": null
+    },
+    "enableWindowOpen": true,
+    "userAgentAdd": "gonative",
+    "forceUserAgent": "",
+    "iosUserAgentAdd": "gonative",
+    "iosForceUserAgent": "",
+    "androidUserAgentAdd": "gonative",
+    "androidForceUserAgent": "",
+    "nativeBridgeUrls": [],
+    "iosBundleId": "io.gonative.ios.zwxbwo",
+    "androidPackageName": "io.gonative.android.zwxbwo",
+    "iosCustomHeaders": {},
+    "androidCustomHeaders": {}
+  },
+  "navigation": {
+    "ignorePageFinishedRegexes": [],
+    "redirects": [],
+    "iosSettings": {},
+    "iosPullToRefresh": true,
+    "androidPullToRefresh": false,
+    "iosConnectionOfflineTime": 10,
+    "androidConnectionOfflineTime": 10,
+    "regexInternalExternal": {
+      "active": true,
+      "rules": [
+        {
+          "internal": false,
+          "label": "Non-web links",
+          "regex": "^(?!https?://).*"
+        },
+        {
+          "internal": false,
+          "label": "Facebook",
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com.*"
+        },
+        {
+          "internal": false,
+          "label": "Twitter",
+          "regex": "https?://([-\\w]+\\.)*twitter\\.com/.*"
+        },
+        {
+          "internal": false,
+          "label": "Instagram",
+          "regex": "https?://([-\\w]+\\.)*instagram\\.com/.*"
+        },
+        {
+          "internal": false,
+          "label": "Google Maps",
+          "regex": "https?://maps\\.google\\.com.*"
+        },
+        {
+          "internal": false,
+          "label": "Google Maps Search",
+          "regex": "https?://([-\\w]+\\.)*google\\.com/maps/search/.*"
+        },
+        {
+          "internal": false,
+          "label": "LinkedIn",
+          "regex": "https?://([-\\w]+\\.)*linkedin\\.com/.*"
+        },
+        {
+          "internal": true,
+          "label": "All Other Links",
+          "regex": ".*"
+        }
+      ]
+    },
+    "deepLinkDomains": {
+      "enableAndroidApplinks": false,
+      "domains": []
+    },
+    "navigationTitles": {
+      "active": true,
+      "titles": []
+    },
+    "iosShowRefreshButton": false,
+    "androidShowRefreshButton": false,
+    "actionConfig": {
+      "active": true,
+      "actions": [],
+      "actionSelection": []
+    },
+    "navigationLevels": {
+      "active": true,
+      "levels": []
+    },
+    "sidebarNavigation": {
+      "menuSelectionConfig": {
+        "redirectLocations": [
+          {
+            "regex": ".*",
+            "menuName": "default",
+            "loggedIn": true
+          }
+        ]
+      },
+      "menus": [
+        {
+          "active": false,
+          "items": [
+            {
+              "url": "https://newshanik.ir/",
+              "label": "",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/#",
+              "label": "گروه بندی محصولات",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/productlist/27",
+              "label": "چای های خالص",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/productlist/11",
+              "label": "مخلوط چای های سیاه",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/productlist/1",
+              "label": "مخلوط چای های سبز",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/productlist/28",
+              "label": "دمنوش های خالص",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/productlist/3",
+              "label": "دمنوش های ترکیبی",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/productlist/32",
+              "label": "روغن ها",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/productlist/30",
+              "label": "دانه ها",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/productlist/20",
+              "label": "پودر های قهوه و شکلات فوری",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/productlist/26",
+              "label": "ملزومات تبلیغاتی",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/productlist/35",
+              "label": "بسته کلکسیونی",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/private-label",
+              "label": "تولید اختصاصی",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/invoiceSettlement",
+              "label": "تسویه پیش فاکتور",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/about-us",
+              "label": "داستان ما",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/khak/1",
+              "label": "تأمین مواد اولیه",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/khak/2",
+              "label": "فرآوری",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/khak/3",
+              "label": "تولید",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/khak/4",
+              "label": "بسته بندی",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/khak/5",
+              "label": "فروش",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/khak/6",
+              "label": "توزیع",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/products-functionality",
+              "label": "کارکرد محصولات",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/products-health",
+              "label": "کنترل کیفیت محصولات",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/plantProperties",
+              "label": "شناسنامه گیاهان",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/aroundTheWorld",
+              "label": "فعالیت بین المللی ما",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/earningOpportunity",
+              "label": "فرصت درآمدزایی ما",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/bestSellerMedia",
+              "label": "برترین ها",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/our_advantages",
+              "label": "مزیت های ما",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/promotion-programs",
+              "label": "برنامه های تشویقی ما",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/rahbaran",
+              "label": "باشگاه راهبران",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/bestSeller",
+              "label": "برترین ها",
+              "subLinks": []
+            },
+            {
+              "url": "https://newshanik.ir/blog",
+              "label": "مجله مجازی ما",
+              "subLinks": []
+            }
+          ],
+          "name": "default"
+        }
+      ]
+    },
+    "tabNavigation": {
+      "active": false,
+      "tabMenus": [],
+      "tabSelectionConfig": []
+    },
+    "androidShowOfflinePage": true,
+    "iosShowOfflinePage": true,
+    "toolbarNavigation": {
+      "enabled": false,
+      "visibilityByPages": "allPages",
+      "visibilityByBackButton": "backButtonActive",
+      "regexes": [
+        {
+          "enabled": true,
+          "regex": ".*"
+        }
+      ],
+      "items": [
+        {
+          "system": "back",
+          "titleType": "defaultText",
+          "visibility": "allPages",
+          "urlRegex": [
+            {
+              "enabled": true,
+              "regex": ".*"
+            }
+          ]
+        },
+        {
+          "system": "refresh",
+          "enabled": false,
+          "visibility": "allPages",
+          "urlRegex": [
+            {
+              "enabled": true,
+              "regex": ".*"
+            }
+          ]
+        },
+        {
+          "system": "forward",
+          "enabled": false,
+          "titleType": "defaultText",
+          "visibility": "allPages",
+          "urlRegex": [
+            {
+              "enabled": true,
+              "regex": ".*"
+            }
+          ]
+        }
+      ]
+    },
+    "maxWindows": {
+      "enabled": false,
+      "numWindows": 5,
+      "autoClose": false
+    },
+    "iosOfflinePageHtml": "",
+    "androidOfflinePageHtml": "",
+    "offlinePageHtml": ""
+  },
+  "styling": {
+    "iosLaunchScreen": {
+      "backgroundImage": "https://s3.amazonaws.com/gonativeio/images_generated/1688984927966_f3c8eb01dqr3r_FFFFFF_1_2x2.png",
+      "backgroundImageDark": "https://s3.amazonaws.com/gonativeio/images_generated/1688984927990_jqmu6nftdapjw_000000_1_2x2.png",
+      "backgroundColor": "#FFFFFF",
+      "backgroundColorDark": "#000000",
+      "centerImage": "https://gonativeio.s3.amazonaws.com/uploads/2pmdx7ccae242_1688984889288.png",
+      "centerImageDark": "https://gonativeio.s3.amazonaws.com/uploads/2pmdx7ccae242_1688984889288.png"
+    },
+    "transitionInteractiveDelayMax": 0.2,
+    "menuAnimationDuration": 0.15,
+    "iosTheme": "default",
+    "androidLaunchImages": {
+      "mdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688984928210_8k226yk03urnr_180x180.9.png",
+      "hdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688984928231_bwkhkk6u62re0_270x270.9.png",
+      "xhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688984928249_9xkz805q987xy_360x360.9.png",
+      "xxhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688984928292_kb6h6uxgnb6ew_540x540.9.png",
+      "xxxhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688984928339_61j3fm9bb7peg_720x720.9.png"
+    },
+    "androidLaunchImagesDark": {
+      "mdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688984928374_wbywhfwp6vgz4_180x180.9.png",
+      "hdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688984928444_ve27k7zfxkeq0_270x270.9.png",
+      "xhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688984928483_b2zgbmx15game_360x360.9.png",
+      "xxhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688984928543_8ev0d4dcmnq6c_540x540.9.png",
+      "xxxhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688984928669_k01ca62j6pvn6_720x720.9.png"
+    },
+    "androidTabPressedBackgroundColor": "#CCCCCC",
+    "androidTabPressedBackgroundColorDark": "#999999",
+    "androidBackgroundColor": "#FFFFFF",
+    "androidBackgroundColorDark": "#333333",
+    "icon": "https://gonativeio.s3.amazonaws.com/uploads/2pmdx7ccae242_1688984889288.png",
+    "iosIcon": "https://gonativeio.s3.amazonaws.com/uploads/2pmdx7ccae242_1688984889288.png",
+    "iosDarkMode": "auto",
+    "iosEnableBlurInStatusBar": false,
+    "iosStatusBarStyle": "auto",
+    "iosEnableOverlayInStatusBar": false,
+    "iosStatusBarBackgroundColor": "#ffffffff",
+    "iosStatusBarBackgroundColorDark": "#000000",
+    "androidStatusBarStyle": "auto",
+    "androidEnableOverlayInStatusBar": false,
+    "androidStatusBarBackgroundColor": "#5C5C5C",
+    "androidStatusBarBackgroundColorDark": "#333333",
+    "iosTintColor": "#007aff",
+    "iosTintColorDark": "#adc5dc",
+    "androidIcon": "https://gonativeio.s3.amazonaws.com/uploads/kpnme2xq1edrp_1688984749401.png",
+    "androidSplashBackgroundColor": "#FFFFFF",
+    "androidSplashBackgroundColorDark": "#000000",
+    "androidTheme": "auto",
+    "androidAccentColor": "#009688",
+    "androidAccentColorDark": "#80cbc4",
+    "androidPullToRefreshColor": "#1E496E",
+    "androidPullToRefreshColorDark": "#FFFFFF",
+    "androidWebviewTextZoom": null,
+    "hideWebviewAlpha": 0.5,
+    "androidSwipeNavigationBackgroundColor": "#FFFFFF",
+    "androidSwipeNavigationBackgroundColorDark": "#333333",
+    "androidSwipeNavigationActiveColor": "#000000",
+    "androidSwipeNavigationActiveColorDark": "#FFFFFF",
+    "androidSwipeNavigationInactiveColor": "#666666",
+    "androidSwipeNavigationInactiveColorDark": "#666666",
+    "navigationTitleImageLocation": "assets/defaults/logo1_white_padded.png",
+    "navigationTitleImageLocationDark": "assets/defaults/logo1_white_padded.png",
+    "iosTitleColor": "#333333",
+    "iosTitleColorDark": "#adc5dc",
+    "iosNavigationBarTintColor": "#f8f8f8",
+    "iosNavigationBarTintColorDark": "#333333",
+    "androidActionBarBackgroundColor": "#FFFFFF",
+    "androidActionBarBackgroundColorDark": "#333333",
+    "androidHeaderImage": "assets/defaults/logo1_white_padded.png",
+    "androidHeaderImageDark": "assets/defaults/logo1_white_padded.png",
+    "androidActionBarForegroundColor": "#1E496E",
+    "androidActionBarForegroundColorDark": "#FFFFFF",
+    "iosSidebarBackgroundColor": "#f8f8f8",
+    "iosSidebarBackgroundColorDark": "#333333",
+    "iosSidebarFont": "Default",
+    "iosHeaderImage": "https://gonativeio.s3.amazonaws.com/uploads/2pmdx7ccae242_1688984889288.png",
+    "iosHeaderImageDark": "https://gonativeio.s3.amazonaws.com/uploads/2pmdx7ccae242_1688984889288.png",
+    "iosSidebarTextColor": "#333333",
+    "iosSidebarTextColorDark": "#adc5dc",
+    "androidSidebarBackgroundColor": "#FFFFFF",
+    "androidSidebarBackgroundColorDark": "#333333",
+    "androidSidebarForegroundColor": "#1E496E",
+    "androidSidebarForegroundColorDark": "#FFFFFF",
+    "androidSidebarSeparatorColor": "#CCCCCC",
+    "androidSidebarSeparatorColorDark": "#666666",
+    "androidSidebarHighlightColor": "#1E496E",
+    "androidSidebarHighlightColorDark": "#FFFFFF",
+    "androidShowLogoInSideBar": true,
+    "androidShowAppNameInSideBar": true,
+    "androidTabBarBackgroundColor": "#FFFFFF",
+    "androidTabBarBackgroundColorDark": "#333333",
+    "androidTabBarTextColor": "#949494",
+    "androidTabBarTextColorDark": "#FFFFFF",
+    "androidTabBarIndicatorColor": "#1E496E",
+    "androidTabBarIndicatorColorDark": "#666666",
+    "iosTabBarTintColor": "#f8f8f8",
+    "iosTabBarTintColorDark": "#333333",
+    "androidShowSplash": true,
+    "disableAnimations": false,
+    "navigationTitleImage": false,
+    "androidHideTitleInActionBar": false,
+    "showNavigationBar": false,
+    "showActionBar": false
+  },
+  "permissions": {
+    "usesGeolocation": false,
+    "iosLocationUsageDescription": "",
+    "iosCameraUsageDescription": "",
+    "enableWebRTC": false,
+    "androidDownloadToPublicStorage": false,
+    "iOSATTUserTrackingDescription": "",
+    "iOSRequestATTConsentOnLoad": false
+  },
+  "developmentTools": {
+    "enableWebConsoleLogs": false
+  },
+  "services": {
+    "oneSignal": {
+      "active": false
+    }
+  }
+}
